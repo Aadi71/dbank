@@ -1,5 +1,4 @@
 service : {
   WithDrawl: (nat) -> () oneway;
-  checkBalance: () -> (nat) query;
   topUp: (nat) -> () oneway;
 }
